@@ -1,0 +1,69 @@
+# Compiled class files
+target/
+out/
+bin/
+*.class
+
+# Logs and temp files
+logs/
+*.log
+*.tmp
+
+# Maven dependencies
+.mvn/
+!mvn/wrapper/maven-wrapper.jar
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+*.yml
+application-dev.yml
+application-prod.yml
+
+# Supabase secret keys (avoid committing sensitive data)
+supabase/.secrets/
+supabase/*.sql
+
+# Docker files
+docker-compose.override.yml
+
+# Java-related
+*.jar
+*.war
+*.ear
+
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build output
+dist/
+build/
+.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editor and OS files
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.development
+.env.production
