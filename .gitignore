@@ -24,9 +24,9 @@ Thumbs.db
 
 # Environment variables
 .env
-*.yml
-application-dev.yml
-application-prod.yml
+
+application.yml
+
 
 # Supabase secret keys (avoid committing sensitive data)
 supabase/.secrets/

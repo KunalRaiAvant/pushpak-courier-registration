@@ -1,0 +1,19 @@
+"spring.application.name=pushpak-registration" 
+
+
+spring:
+  datasource:
+    url: jdbc:postgresql://db.sbzejrhepdceuyvyvsmy.supabase.co:5432/postgres
+    username: postgres
+    password: <YOURPASSWORD>  # Replace with your actual password
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update  # Automatically syncs DB schema
+    show-sql: true  # Enables query logging
+
+supabase:
+  url: https://sbzejrhepdceuyvyvsmy.supabase.co
+  api-key: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNiemVqcmhlcGRjZXV5dnl2c215Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczOTIwOTk2MCwiZXhwIjoyMDU0Nzg1OTYwfQ._BXgJ93QugX2afc8YssMsshZ9_B8O74zQyk87cgwk_o  # Use Service Role Key for full DB access
+
