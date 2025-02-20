@@ -2,6 +2,13 @@
 
 A full-stack application for registering **customers**, **vendors**, and **vehicles** for a courier service. It integrates **Spring Boot** for the backend, **React** for the frontend, and **Supabase** for authentication and database management.
 
+## System Architecture
+
+Below is the architecture diagram for **Pushpak Courier Corporation**:
+
+![System Architecture](assets/system-architecture.png)
+
+
 ## **Features**
 - **Customer Registration**: Customers can register their details.
 - **Vendor Registration**: Vendors can register to offer delivery services.
